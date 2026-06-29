@@ -15,8 +15,9 @@ import io from "socket.io-client"
 import styles from "../styles/videoComponent.module.css"
 import IconButton from '@mui/material/IconButton';
 import { useNavigate } from 'react-router-dom';
+import server from "../environment.js";
 
-const server_url = "http://localhost:8000";
+const server_url = server;
 
 var connections = {};
 const peerConfigConnections = {
