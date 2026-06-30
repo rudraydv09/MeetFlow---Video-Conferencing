@@ -127,6 +127,19 @@ npm start
 
 ## 📸 Screenshots
 
+<p align="center">
+  <img src="./screenshots/home.png" width="45%">
+</p>
+
+<p align="center">
+  <img src="./screenshots/register.png" width="45%">
+  <img src="./screenshots/signup.png" width="45%">
+</p>
+
+<p align="center">
+  <img src="./screenshots/meetingWindow.png" width="45%">
+  <img src="./screenshots/meet.png" width="45%">
+</p>
 
 
 ---
