@@ -196,7 +196,7 @@ export default function VideoMeetComponent() {
 
     let addMessage = (data, sender, socketIdSender) => {
         setMessages((prevMessages) => [
-            ...prevMessages,
+            ...prevMessages, 
             {sender: sender, data: data}
     ]);
     if(socketIdSender !== socketIdRef.current){
@@ -218,8 +218,8 @@ export default function VideoMeetComponent() {
                 clients.forEach((socketListId) => {
                     connections[socketListId] = new RTCPeerConnection(peerConfigConnections);
                     connections[socketListId].onicecandidate = (event) => {
-                        if (event.canditate !== null) {
-                            socketRef.current.emit("signal", socketListId, JSON.stringify({ 'ice': event.canditate }));
+                        if (event.candidate !== null) {
+                            socketRef.current.emit("signal", socketListId, JSON.stringify({ 'ice': event.candidate }));
                         }
                     }
 
