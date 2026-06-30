@@ -78,7 +78,7 @@ MEETFLOW/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/rudraydv09/MeetFlow.git
+https://github.com/rudraydv09/MeetFlow---Video-Conferencing.git
 cd MeetFlow
 ```
 
