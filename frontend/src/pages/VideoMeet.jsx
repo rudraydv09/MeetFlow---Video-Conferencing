@@ -232,7 +232,7 @@ export default function VideoMeetComponent() {
                                 );
                                 videoRef.current = updatedVideos;
                                 return updatedVideos;
-                            })
+                            })  
                         } else {
                             let newVideo = {
                                 socketId: socketListId,
